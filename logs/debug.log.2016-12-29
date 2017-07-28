@@ -1,0 +1,215 @@
+2016-12-29 10:57:33  [ main:0 ] - [ DEBUG ]  Connection request: [route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-12-29 10:57:33  [ main:12 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 10:57:33  [ main:15 ] - [ DEBUG ]  Connecting to 123.56.160.244:8084
+2016-12-29 10:57:33  [ main:108 ] - [ DEBUG ]  CookieSpec selected: best-match
+2016-12-29 10:57:33  [ main:117 ] - [ DEBUG ]  Auth cache not set in the context
+2016-12-29 10:57:33  [ main:117 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-12-29 10:57:33  [ main:118 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-12-29 10:57:33  [ main:118 ] - [ DEBUG ]  Attempt 1 to execute request
+2016-12-29 10:57:33  [ main:118 ] - [ DEBUG ]  Sending request: POST /v2/pile-info/notify HTTP/1.1
+2016-12-29 10:57:33  [ main:119 ] - [ DEBUG ]  >> "POST /v2/pile-info/notify HTTP/1.1[\r][\n]"
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> "Content-Length: 616[\r][\n]"
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> "Host: 123.56.160.244:8084[\r][\n]"
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> "Connection: Keep-Alive[\r][\n]"
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> "fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)[\r][\n]"
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> "[\r][\n]"
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> POST /v2/pile-info/notify HTTP/1.1
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> Content-Length: 616
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> Host: 123.56.160.244:8084
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2016-12-29 10:57:33  [ main:121 ] - [ DEBUG ]  >> fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)
+2016-12-29 10:57:33  [ main:122 ] - [ DEBUG ]  >> "app_id=qjx6TcPLpgHZv4ZH5mJ2K6qj&sig=KnwSk4Z7zpCd0Wx51VIXM9hwIQc%3D&info=%7B%22pile_code%22%3A%221110108217001001%22%2C%22inter_no%22%3A0%2C%22inter_type%22%3A2%2C%22inter_conn_state%22%3A3%2C%22inter_work_state%22%3A2%2C%22inter_order_state%22%3A1%2C%22voltage%22%3A5%2C%22current%22%3A9%2C%22soc%22%3A21%2C%22fault_code%22%3A22%2C%22err_code%22%3A0%2C%22res_time%22%3A0%2C%22time%22%3A1480417165%2C%22elect_address%22%3A%22none%22%2C%22elect_type%22%3A2%2C%22elect_rate%22%3A0%2C%22active_power%22%3A16%2C%22reactive_power%22%3A17%2C%22active_energy%22%3A18%2C%22reactive_energy%22%3A19%2C%22parking_state%22%3A2%7D"
+2016-12-29 10:57:33  [ main:192 ] - [ DEBUG ]  << "HTTP/1.1 200 [\r][\n]"
+2016-12-29 10:57:33  [ main:194 ] - [ DEBUG ]  << "X-Application-Context: application:8084[\r][\n]"
+2016-12-29 10:57:33  [ main:194 ] - [ DEBUG ]  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-12-29 10:57:33  [ main:194 ] - [ DEBUG ]  << "Transfer-Encoding: chunked[\r][\n]"
+2016-12-29 10:57:33  [ main:194 ] - [ DEBUG ]  << "Date: Thu, 29 Dec 2016 02:57:33 GMT[\r][\n]"
+2016-12-29 10:57:33  [ main:194 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:33  [ main:195 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 
+2016-12-29 10:57:33  [ main:195 ] - [ DEBUG ]  << HTTP/1.1 200 
+2016-12-29 10:57:33  [ main:195 ] - [ DEBUG ]  << X-Application-Context: application:8084
+2016-12-29 10:57:33  [ main:195 ] - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-12-29 10:57:33  [ main:195 ] - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-12-29 10:57:33  [ main:195 ] - [ DEBUG ]  << Date: Thu, 29 Dec 2016 02:57:33 GMT
+2016-12-29 10:57:33  [ main:198 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-12-29 10:57:33  [ main:200 ] - [ DEBUG ]  << "19[\r][\n]"
+2016-12-29 10:57:33  [ main:200 ] - [ DEBUG ]  << "{"ret":0,"msg":"success"}"
+2016-12-29 10:57:33  [ main:200 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:33  [ main:200 ] - [ DEBUG ]  << "0[\r][\n]"
+2016-12-29 10:57:33  [ main:201 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:33  [ main:201 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://123.56.160.244:8084] can be kept alive indefinitely
+2016-12-29 10:57:33  [ main:201 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://123.56.160.244:8084][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 10:57:33  [ main:207 ] - [ DEBUG ]  Connection request: [route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-12-29 10:57:33  [ main:207 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 10:57:33  [ main:208 ] - [ DEBUG ]  Connecting to 123.56.160.244:8084
+2016-12-29 10:57:34  [ main:247 ] - [ DEBUG ]  CookieSpec selected: best-match
+2016-12-29 10:57:34  [ main:247 ] - [ DEBUG ]  Auth cache not set in the context
+2016-12-29 10:57:34  [ main:247 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-12-29 10:57:34  [ main:247 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-12-29 10:57:34  [ main:247 ] - [ DEBUG ]  Attempt 1 to execute request
+2016-12-29 10:57:34  [ main:247 ] - [ DEBUG ]  Sending request: POST /v2/pile-opr/notify HTTP/1.1
+2016-12-29 10:57:34  [ main:247 ] - [ DEBUG ]  >> "POST /v2/pile-opr/notify HTTP/1.1[\r][\n]"
+2016-12-29 10:57:34  [ main:247 ] - [ DEBUG ]  >> "Content-Length: 286[\r][\n]"
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> "Host: 123.56.160.244:8084[\r][\n]"
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> "Connection: Keep-Alive[\r][\n]"
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> "fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)[\r][\n]"
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> "[\r][\n]"
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> POST /v2/pile-opr/notify HTTP/1.1
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> Content-Length: 286
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> Host: 123.56.160.244:8084
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)
+2016-12-29 10:57:34  [ main:248 ] - [ DEBUG ]  >> "app_id=qjx6TcPLpgHZv4ZH5mJ2K6qj&sig=mPX5WoDhO5WtRqclB715p0ESMfk%3D&info=%7B%22pile_code%22%3A%221110108217001001%22%2C%22inter_no%22%3A1%2C%22session_id%22%3A1903%2C%22user_id%22%3A228%2C%22action%22%3A1%2C%22result%22%3A1%2C%22soc%22%3A57%2C%22time%22%3A1480508124%2C%22ecode%22%3A0%7D"
+2016-12-29 10:57:34  [ main:289 ] - [ DEBUG ]  << "HTTP/1.1 200 [\r][\n]"
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << "X-Application-Context: application:8084[\r][\n]"
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << "Transfer-Encoding: chunked[\r][\n]"
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << "Date: Thu, 29 Dec 2016 02:57:33 GMT[\r][\n]"
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << HTTP/1.1 200 
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << X-Application-Context: application:8084
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << Date: Thu, 29 Dec 2016 02:57:33 GMT
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << "19[\r][\n]"
+2016-12-29 10:57:34  [ main:290 ] - [ DEBUG ]  << "{"ret":0,"msg":"success"}"
+2016-12-29 10:57:34  [ main:291 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:291 ] - [ DEBUG ]  << "0[\r][\n]"
+2016-12-29 10:57:34  [ main:291 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:291 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://123.56.160.244:8084] can be kept alive indefinitely
+2016-12-29 10:57:34  [ main:291 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://123.56.160.244:8084][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 10:57:34  [ main:296 ] - [ DEBUG ]  Connection request: [route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-12-29 10:57:34  [ main:297 ] - [ DEBUG ]  Connection leased: [id: 2][route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 10:57:34  [ main:297 ] - [ DEBUG ]  Connecting to 123.56.160.244:8084
+2016-12-29 10:57:34  [ main:332 ] - [ DEBUG ]  CookieSpec selected: best-match
+2016-12-29 10:57:34  [ main:332 ] - [ DEBUG ]  Auth cache not set in the context
+2016-12-29 10:57:34  [ main:332 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-12-29 10:57:34  [ main:332 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-12-29 10:57:34  [ main:332 ] - [ DEBUG ]  Attempt 1 to execute request
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  Sending request: POST /v2/realtime-record/notify HTTP/1.1
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> "POST /v2/realtime-record/notify HTTP/1.1[\r][\n]"
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> "Content-Length: 409[\r][\n]"
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> "Host: 123.56.160.244:8084[\r][\n]"
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> "Connection: Keep-Alive[\r][\n]"
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> "fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)[\r][\n]"
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> "[\r][\n]"
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> POST /v2/realtime-record/notify HTTP/1.1
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> Content-Length: 409
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> Host: 123.56.160.244:8084
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2016-12-29 10:57:34  [ main:333 ] - [ DEBUG ]  >> fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)
+2016-12-29 10:57:34  [ main:334 ] - [ DEBUG ]  >> "app_id=qjx6TcPLpgHZv4ZH5mJ2K6qj&sig=VwnnHAvLjZEXyhHNwm3X%2BHqjOac%3D&info=%7B%22pile_code%22%3A%221110108217001001%22%2C%22inter_no%22%3A1%2C%22user_id%22%3A35829%2C%22session_id%22%3A683121%2C%22cur_elect%22%3A13.69%2C%22cur_money%22%3A20.46%2C%22stop%22%3A1%2C%22soc%22%3A97%2C%22cur_time%22%3A51%2C%22stop_reason%22%3A0%2C%22time%22%3A1480586288%2C%22cur_elect_money%22%3A0%2C%22cur_service_money%22%3A0%7D"
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << "HTTP/1.1 200 [\r][\n]"
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << "X-Application-Context: application:8084[\r][\n]"
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << "Transfer-Encoding: chunked[\r][\n]"
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << "Date: Thu, 29 Dec 2016 02:57:33 GMT[\r][\n]"
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << HTTP/1.1 200 
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << X-Application-Context: application:8084
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  << Date: Thu, 29 Dec 2016 02:57:33 GMT
+2016-12-29 10:57:34  [ main:405 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-12-29 10:57:34  [ main:406 ] - [ DEBUG ]  << "19[\r][\n]"
+2016-12-29 10:57:34  [ main:406 ] - [ DEBUG ]  << "{"ret":0,"msg":"success"}"
+2016-12-29 10:57:34  [ main:406 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:406 ] - [ DEBUG ]  << "0[\r][\n]"
+2016-12-29 10:57:34  [ main:406 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:406 ] - [ DEBUG ]  Connection [id: 2][route: {}->http://123.56.160.244:8084] can be kept alive indefinitely
+2016-12-29 10:57:34  [ main:406 ] - [ DEBUG ]  Connection released: [id: 2][route: {}->http://123.56.160.244:8084][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 10:57:34  [ main:412 ] - [ DEBUG ]  Connection request: [route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-12-29 10:57:34  [ main:412 ] - [ DEBUG ]  Connection leased: [id: 3][route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 10:57:34  [ main:412 ] - [ DEBUG ]  Connecting to 123.56.160.244:8084
+2016-12-29 10:57:34  [ main:475 ] - [ DEBUG ]  CookieSpec selected: best-match
+2016-12-29 10:57:34  [ main:475 ] - [ DEBUG ]  Auth cache not set in the context
+2016-12-29 10:57:34  [ main:475 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-12-29 10:57:34  [ main:475 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-12-29 10:57:34  [ main:475 ] - [ DEBUG ]  Attempt 1 to execute request
+2016-12-29 10:57:34  [ main:475 ] - [ DEBUG ]  Sending request: POST /v2/bill/notify HTTP/1.1
+2016-12-29 10:57:34  [ main:475 ] - [ DEBUG ]  >> "POST /v2/bill/notify HTTP/1.1[\r][\n]"
+2016-12-29 10:57:34  [ main:475 ] - [ DEBUG ]  >> "Content-Length: 1201[\r][\n]"
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> "Host: 123.56.160.244:8084[\r][\n]"
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> "Connection: Keep-Alive[\r][\n]"
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> "fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)[\r][\n]"
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> "[\r][\n]"
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> POST /v2/bill/notify HTTP/1.1
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> Content-Length: 1201
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> Host: 123.56.160.244:8084
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)
+2016-12-29 10:57:34  [ main:476 ] - [ DEBUG ]  >> "app_id=qjx6TcPLpgHZv4ZH5mJ2K6qj&sig=qn7Q8jpyMD4jt79JNHR5WWZDtKM%3D&info=%7B%22pile_code%22%3A%221110108217001001%22%2C%22session_id%22%3A683222%2C%22user_id%22%3A48521%2C%22money%22%3A40.6%2C%22elect_money%22%3A20.3%2C%22service_money%22%3A20.3%2C%22elect%22%3A22.51%2C%22start_elect%22%3A70359.5%2C%22end_elect%22%3A70382%2C%22cusp_elect%22%3A0%2C%22cusp_elect_price%22%3A1.0044%2C%22cusp_service_price%22%3A0.8%2C%22cusp_money%22%3A0%2C%22cusp_elect_money%22%3A0%2C%22cusp_service_money%22%3A0%2C%22peak_elect%22%3A22.51%2C%22peak_elect_price%22%3A1.0044%2C%22peak_service_price%22%3A0.8%2C%22peak_money%22%3A0%2C%22peak_elect_money%22%3A22.6%2C%22peak_service_money%22%3A18%2C%22flat_elect%22%3A0%2C%22flat_elect_price%22%3A0.6950000000000001%2C%22flat_service_price%22%3A0.8%2C%22flat_money%22%3A0%2C%22flat_elect_money%22%3A0%2C%22flat_service_money%22%3A0%2C%22valley_elect%22%3A0%2C%22valley_elect_price%22%3A0.3946%2C%22valley_service_price%22%3A0.8%2C%22valley_money%22%3A0%2C%22valley_elect_money%22%3A0%2C%22valley_service_money%22%3A0%2C%22start_time%22%3A1480588539%2C%22end_time%22%3A1480593339%2C%22stop_model%22%3A2%2C%22stop_reason%22%3A0%2C%22soc%22%3A88%2C%22time%22%3A1480593334%7D"
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  << "HTTP/1.1 200 [\r][\n]"
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  << "X-Application-Context: application:8084[\r][\n]"
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  << "Transfer-Encoding: chunked[\r][\n]"
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  << "Date: Thu, 29 Dec 2016 02:57:33 GMT[\r][\n]"
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  << HTTP/1.1 200 
+2016-12-29 10:57:34  [ main:536 ] - [ DEBUG ]  << X-Application-Context: application:8084
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  << Date: Thu, 29 Dec 2016 02:57:33 GMT
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  << "19[\r][\n]"
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  << "{"ret":0,"msg":"success"}"
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  << "0[\r][\n]"
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 10:57:34  [ main:537 ] - [ DEBUG ]  Connection [id: 3][route: {}->http://123.56.160.244:8084] can be kept alive indefinitely
+2016-12-29 10:57:34  [ main:538 ] - [ DEBUG ]  Connection released: [id: 3][route: {}->http://123.56.160.244:8084][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 11:02:33  [ main:0 ] - [ DEBUG ]  Connection request: [route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-12-29 11:02:33  [ main:11 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://123.56.160.244:8084][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-12-29 11:02:33  [ main:14 ] - [ DEBUG ]  Connecting to 123.56.160.244:8084
+2016-12-29 11:02:33  [ main:100 ] - [ DEBUG ]  CookieSpec selected: best-match
+2016-12-29 11:02:33  [ main:109 ] - [ DEBUG ]  Auth cache not set in the context
+2016-12-29 11:02:33  [ main:109 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2016-12-29 11:02:33  [ main:110 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2016-12-29 11:02:33  [ main:110 ] - [ DEBUG ]  Attempt 1 to execute request
+2016-12-29 11:02:33  [ main:110 ] - [ DEBUG ]  Sending request: POST /v2/pile-info/notify HTTP/1.1
+2016-12-29 11:02:33  [ main:111 ] - [ DEBUG ]  >> "POST /v2/pile-info/notify HTTP/1.1[\r][\n]"
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> "Content-Length: 616[\r][\n]"
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> "Host: 123.56.160.244:8084[\r][\n]"
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> "Connection: Keep-Alive[\r][\n]"
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> "fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)[\r][\n]"
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> "[\r][\n]"
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> POST /v2/pile-info/notify HTTP/1.1
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> Content-Length: 616
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> Host: 123.56.160.244:8084
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2016-12-29 11:02:33  [ main:112 ] - [ DEBUG ]  >> fastjson.User-Agent: Apache-HttpClient/4.2.5 (java 1.5)
+2016-12-29 11:02:33  [ main:113 ] - [ DEBUG ]  >> "app_id=qjx6TcPLpgHZv4ZH5mJ2K6qj&sig=KnwSk4Z7zpCd0Wx51VIXM9hwIQc%3D&info=%7B%22pile_code%22%3A%221110108217001001%22%2C%22inter_no%22%3A0%2C%22inter_type%22%3A2%2C%22inter_conn_state%22%3A3%2C%22inter_work_state%22%3A2%2C%22inter_order_state%22%3A1%2C%22voltage%22%3A5%2C%22current%22%3A9%2C%22soc%22%3A21%2C%22fault_code%22%3A22%2C%22err_code%22%3A0%2C%22res_time%22%3A0%2C%22time%22%3A1480417165%2C%22elect_address%22%3A%22none%22%2C%22elect_type%22%3A2%2C%22elect_rate%22%3A0%2C%22active_power%22%3A16%2C%22reactive_power%22%3A17%2C%22active_energy%22%3A18%2C%22reactive_energy%22%3A19%2C%22parking_state%22%3A2%7D"
+2016-12-29 11:02:33  [ main:147 ] - [ DEBUG ]  << "HTTP/1.1 200 [\r][\n]"
+2016-12-29 11:02:33  [ main:148 ] - [ DEBUG ]  << "X-Application-Context: application:8084[\r][\n]"
+2016-12-29 11:02:33  [ main:149 ] - [ DEBUG ]  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2016-12-29 11:02:33  [ main:149 ] - [ DEBUG ]  << "Transfer-Encoding: chunked[\r][\n]"
+2016-12-29 11:02:33  [ main:149 ] - [ DEBUG ]  << "Date: Thu, 29 Dec 2016 03:02:32 GMT[\r][\n]"
+2016-12-29 11:02:33  [ main:149 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 11:02:33  [ main:149 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 
+2016-12-29 11:02:33  [ main:150 ] - [ DEBUG ]  << HTTP/1.1 200 
+2016-12-29 11:02:33  [ main:150 ] - [ DEBUG ]  << X-Application-Context: application:8084
+2016-12-29 11:02:33  [ main:150 ] - [ DEBUG ]  << Content-Type: application/json;charset=UTF-8
+2016-12-29 11:02:33  [ main:150 ] - [ DEBUG ]  << Transfer-Encoding: chunked
+2016-12-29 11:02:33  [ main:150 ] - [ DEBUG ]  << Date: Thu, 29 Dec 2016 03:02:32 GMT
+2016-12-29 11:02:33  [ main:154 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2016-12-29 11:02:33  [ main:157 ] - [ DEBUG ]  << "19[\r][\n]"
+2016-12-29 11:02:33  [ main:157 ] - [ DEBUG ]  << "{"ret":0,"msg":"success"}"
+2016-12-29 11:02:33  [ main:157 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 11:02:33  [ main:157 ] - [ DEBUG ]  << "0[\r][\n]"
+2016-12-29 11:02:33  [ main:158 ] - [ DEBUG ]  << "[\r][\n]"
+2016-12-29 11:02:33  [ main:158 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://123.56.160.244:8084] can be kept alive indefinitely
+2016-12-29 11:02:33  [ main:158 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://123.56.160.244:8084][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
